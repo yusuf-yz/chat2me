@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2017",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "allowJs": false,
+    "newLine": "LF",
+    "baseUrl": ".",
+    "paths": {
+      "@helper": ["src/helper"],
+      "@router": ["src/router"],
+    }
+  },
+  "include": ["src/**/*"],
+  "files": ["src/types/global.d.ts"]
+}
